@@ -115,7 +115,7 @@ holdButton.addEventListener('click', function () {
             isPlaying = false
             diceEl.classList.add('hidden')
 
-            document.querySelector(`#name--${activePlayer}`).textContent = `Player Wins!🏆`
+            document.querySelector(`#name--${activePlayer}`).textContent = `Player ${activePlayer + 1} Wins!🏆`
 
         } else {
             switchPlayer();
